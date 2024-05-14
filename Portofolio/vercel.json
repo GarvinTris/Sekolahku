@@ -1,0 +1,8 @@
+{
+  "builds": [
+    {
+      "src": "portofolio/**",
+      "use": "@vercel/static"
+    }
+  ]
+}
