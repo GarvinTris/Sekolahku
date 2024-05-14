@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://img.freepik.com/premium-vector/vector-seamless-pattern-school-doodle-back-school-icon-set-design-elements-poster-banner-vector-illustration_69626-368.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login {
+    width: 30%;
+    height: auto;
+    background-color: #EEEEEE;
+    border-radius: 36px;
+    border: 4px solid black;
+    padding: 26px;
+}
+.login h1 {
+    font-size: 26px;
+    font-family: 'Poppins';
+}
+.login h3 {
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+.login input {
+    width: 95%;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.group {
+    display: grid;
+    gap: 12px;
+}
+.group p {
+    line-height: 28px;
+}
+.group button {
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    background-color: #11468F;
+    color: white;
+    border-radius: 26px;
+}
+.group button:hover {
+    background-color: #DA1212;
+    cursor: pointer;
+}
+#google {
+    background-color: #ffffff;
+    border: 2px solid rgb(200, 200, 200);
+    color: black;
+}
+.googlebox {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.googlebox img {
+    margin-right: 40px;
+}
+.googlebox a {
+    padding-top: 3px;
+    padding-right: 50px;
+    text-decoration: none;
+    color: black;
+}
